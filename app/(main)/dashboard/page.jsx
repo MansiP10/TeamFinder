@@ -39,7 +39,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     (async () => await fnUpdates())();
-  }, []);
+  }, [fnUpdates]);
 
   const { loading, error, fn: fnUpdateUsername } = useFetch(updateUsername);
 

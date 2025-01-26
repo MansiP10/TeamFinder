@@ -10,12 +10,12 @@ const features = [
   {
     icon: Calendar,
     title: "Create Events",
-    description: "Design and customize events that reflect your professional skills.Effortlessly create engaging experiences tailored to your audience.Turn your expertise into memorable moments with ease.",
+    description: "Design and customize events that reflect your professional skills. Effortlessly create engaging experiences tailored to your audience. Turn your expertise into memorable moments with ease.",
   },
   {
     icon: Clock,
     title: "Expert Availability and Scheduling",
-    description: "Set your availability with ease to stay in control of your schedule.Eliminate conflicts and make booking seamless for your clients.Focus on what you do best while your calendar works for you.",
+    description: "Set your availability with ease to stay in control of your schedule. Eliminate conflicts and make booking seamless for your clients. Focus on what you do best while your calendar works for you.",
   },
   {
     icon: LinkIcon,
@@ -28,7 +28,7 @@ const howItWorks = [
   { step: "Sign Up", description: "Create your free account on TeamFiner" },
   {
     step: "Set Availability",
-    description: "Set your availability to teach and share your expertise with ease"
+    description: "Set your availability to teach and share your expertise with ease",
   },
   {
     step: "Share Your Link",
@@ -50,7 +50,7 @@ const Home = () => {
             Find Your Perfect Team <span className="text-orange">for Success</span>
           </h1>
           <p className="text-xl text-gray-600 mb-10">
-          Join a community of skilled individuals ready to collaborate on hackathons, challenges, and group projects. Connect with experts in various fields to enhance your team's capabilities.
+            Join a community of skilled individuals ready to collaborate on hackathons, challenges, and group projects. Connect with experts in various fields to enhance your team&apos;s capabilities.
           </p>
           <Link href={"/dashboard"}>
             <Button size="lg" className="text-lg">
@@ -97,7 +97,7 @@ const Home = () => {
       {/* Testimonials Section */}
       <div className="mb-24">
         <h2 className="text-3xl font-bold text-center mb-12 text-blue-600">
-        Testimonials
+          Testimonials
         </h2>
         <TestimonialsCarousel />
       </div>
@@ -128,7 +128,7 @@ const Home = () => {
           Ready to Find Your Team Members?
         </h2>
         <p className="text-xl mb-6 text-blue">
-        Join thousands of professionals who trust TeamFinder for efficient time management. Connect with skilled experts and collaborate on exciting projects. Join our platform today and elevate your productivity!
+          Join thousands of professionals who trust TeamFinder for efficient time management. Connect with skilled experts and collaborate on exciting projects. Join our platform today and elevate your productivity!
         </p>
         <Link href={"/dashboard"}>
           <Button size="lg" variant="secondary" className="text-blue-600">
