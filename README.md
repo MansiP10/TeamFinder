@@ -36,6 +36,9 @@ Feel free to contribute, fork, or use this project as a foundation for your own!
 
 #Hackathon #WebDevelopment #ReactJS #NextJS #FullStackDevelopment #UpskillMafia #Teamwork #Collaboration
 
+![image](https://github.com/MansiP10/TeamFinder/blob/main/assets/TeamFinder_home.png)
+![image](https://github.com/MansiP10/TeamFinder/blob/main/assets/calander.PNG)
+![image](https://github.com/MansiP10/TeamFinder/blob/main/assets/event.PNG)
 
 ### Make sure to create a `.env` file with following variables -
 
