@@ -50,8 +50,8 @@ const Home = () => {
             Find Your Perfect Team <span className="text-orange">for Success</span>
           </h1>
           <p className="text-xl text-gray-600 mb-10">
-            Join a community of skilled individuals ready to collaborate on hackathons, challenges, and group projects. Connect with experts in various fields to enhance your team's capabilities.
-          </p>
+          Join a community of skilled individuals ready to collaborate on hackathons, challenges, and group projects. Connect with experts in various fields to enhance your team&apos;s capabilities.
+        </p>
           <Link href={"/dashboard"}>
             <Button size="lg" className="text-lg">
               Get Started <ArrowRight className="ml-2 h-5 w-5" />
