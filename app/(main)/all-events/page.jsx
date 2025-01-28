@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { getAllOtherUserEvents } from "@/actions/all_events";
-import EventCard from "@/components/event-card";
+import EventCard from "@/components/allevent-card";
 
 export default function EventsPage() {
   return (
