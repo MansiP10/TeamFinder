@@ -11,6 +11,7 @@ const navItems = [
   { href: "/events", label: "My Events", icon: Calendar },
   { href: "/meetings", label: "Meetings", icon: Users },
   { href: "/availability", label: "Availability", icon: Clock },
+  { href: "/all-events", label: "All Events", icon: Calendar },
 ];
 
 export default function AppLayout({ children }) {
